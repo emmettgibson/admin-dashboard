@@ -71,8 +71,8 @@ body {
 input[type="text"] {
   border: none;
   background-color: #e1e8f0;
-  padding: 8px;
-  border-radius: 15px;
+  padding: 10px;
+  border-radius: 30px;
   width: 100%;
 }
 
@@ -117,3 +117,32 @@ input[type="text"] {
   color: #ffffff;
   font-size: 20px;
 }
+
+
+.main-content {
+  background-color: #e1e8f0;
+}
+
+.your-projects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 550px));
+  gap: 16px;
+  margin: 16px;
+}
+.your-projects > div {
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  gap: 16px;
+}
+
+.announcements-trending {
+  display: grid;
+  gap: 16px;
+  margin: 16px;
+}
+.announcements-trending > div {
+  height: 500px;
+  grid-template-rows: repeat(2, minmax(250px, 550px));
+  background-color: #ffffff;
+}
+
