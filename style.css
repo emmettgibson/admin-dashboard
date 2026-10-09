@@ -2,6 +2,20 @@ img[src="panda.jpg"] {
   width: 60px;
   border-radius: 100%;
 }
+img[src="deer.jpg"] {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+img[src="penguin.jpg"] {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}img[src="fox.jpg"] {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
 
 html,
 body {
@@ -177,7 +191,7 @@ input[type="text"] {
 }
 
 .left .box {
-  border-left: 16px solid #649335;
+  border-left: 14px solid #649335;
 }
 
 .left .box ul {
@@ -196,7 +210,7 @@ input[type="text"] {
 }
 
 
-.box {
+.left .box {
   display: flex;
   flex-direction: column;
 }
@@ -207,22 +221,80 @@ input[type="text"] {
   margin-bottom: auto;
 }
 
-.right .text-content {
-  margin: 32px;
+
+
+
+
+.right .upper .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.right .text-content p {
+.box .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0px 16px;
+}
+
+.right .upper .box h4 {
   padding: 0;
-  margin-top: 4px;
-  color: #7d7d7d;
-  font-size: 16px;
+  margin-left: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 
 
 
+.right .upper .box .text-box {
+  min-width: 200px;
+  padding: 16px;
+}
+
+.right .one , .right .two {
+  border-bottom: 1px solid #666666;
+}
 
 
+.right .text-box p {
+  margin-top: 0;
+  min-width: 200px;
+  color: #666666;
+  font-size: 14px;
+}
 
 
+.user {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  margin: 12px 0px;
+}
 
+.user img {
+  padding: 0;
+  margin: 0;
+}
+
+.lower .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  margin: 0px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.information p {
+  padding: 0;
+  margin: 4px 0px;
+  color: #666666;
+}
